@@ -23,6 +23,8 @@ const Weathercard = ({tempInfo}) => {
                     break;
                 case "Clear": setWeatherState("wi-day-sunny");
                     break;
+                case "Rain": setWeatherState("wi-day-rain");
+                    break;
                 default:setWeatherState("wi-day-sunny");
                     break;
             }
