@@ -192,21 +192,24 @@ body {
       background-color: lightblue;
     }
     .wrap {
-        margin-top:0px;
+        margin-top: -10%;
+      }
+      .searchTerm {
+        width: 100%;
       }
     .widget {
         display: flex;
-        height: 400px;
+        height: 80vh;
         width: 420px;
         background: transparent;
     }
     .widget .weatherIcon {
-        height: 40%;
+        height: 60%;
       }
       
     .widget .weatherInfo {
         flex: 0 0 50%;
-        height: 40%;
+        height: 30%;
         flex-direction:column;
       }
       .widget .weatherInfo .temperature {
@@ -227,6 +230,6 @@ body {
       }
       .widget .date {
         flex: 0 0 50%;
-        height: 40%;
+        height: 30%;
       }
   }
